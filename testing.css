@@ -1,0 +1,44 @@
+.roko-instabot-widget {
+	background-color: Black;
+}
+					
+.roko-instabot-widget .head {
+} 
+
+
+.roko-instabot-widget .response {
+	background-color: rgb(56, 161, 233);
+	color: White;
+}
+					
+.roko-instabot-widget .response .tail {
+	border-left-color: rgb(56, 161, 233);
+}
+
+.roko-instabot-widget .conversation .message .question {
+	background-color: rgb(231, 237, 237);
+	color: rgb(96, 96, 96);
+}
+
+.roko-instabot-widget .conversation .message .question .tail {
+	border-right-color: rgb(231, 237, 237);
+}
+					
+.roko-instabot-widget .conversation .message .avatar {} 
+
+.roko-instabot-widget .conversation .message .avatar::after {
+	content: "r"
+}
+
+
+.roko-instabot-widget .conversation .message .question {
+    border-radius: 0;
+}
+
+.roko-instabot-widget .conversation .message .actions-container {
+    border-radius: 0;
+}
+
+.roko-instabot-widget .response {
+    border-radius: 0;
+}
